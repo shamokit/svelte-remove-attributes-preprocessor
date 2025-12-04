@@ -7,13 +7,14 @@ settings:
 importers:
 
   .:
+    dependencies:
+      estree-walker:
+        specifier: ^3.0.3
+        version: 3.0.3
     devDependencies:
       '@types/node':
         specifier: ^24.10.1
         version: 24.10.1
-      estree-walker:
-        specifier: ^3.0.3
-        version: 3.0.3
       svelte:
         specifier: ^5.45.5
         version: 5.45.5
