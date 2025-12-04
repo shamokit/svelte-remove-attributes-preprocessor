@@ -1,6 +1,6 @@
 {
 	"name": "svelte-remove-attributes-preprocessor",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Svelte / SvelteKit preprocessor to remove specified attributes (e.g., data-testid, data-cy) at build time. Supports spread syntax and can be enabled via environment variables.",
 	"main": "index.js",
 	"type": "module",
