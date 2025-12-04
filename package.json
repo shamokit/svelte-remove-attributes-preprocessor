@@ -1,0 +1,39 @@
+{
+	"name": "svelte-remove-attributes-preprocessor",
+	"version": "1.0.0",
+	"description": "Svelte / SvelteKit preprocessor to remove specified attributes (e.g., data-testid, data-cy) at build time. Supports spread syntax and can be enabled via environment variables.",
+	"main": "index.js",
+	"type": "module",
+	"files": [
+		"index.js",
+		"preprocessors/**"
+	],
+	"keywords": [
+		"svelte",
+		"sveltekit",
+		"preprocess",
+		"preprocessor",
+		"vite",
+		"attributes",
+		"strip",
+		"production"
+	],
+	"author": "shamokit (https://github.com/shamokit)",
+	"license": "MIT",
+	"dependencies": {
+		"estree-walker": "^3.0.3"
+	},
+	"devDependencies": {
+		"@types/node": "^24.10.1",
+		"svelte": "^5.45.5"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/shamokit/svelte-remove-attributes-preprocessor.git"
+	},
+	"bugs": {
+		"url": "https://github.com/shamokit/svelte-remove-attributes-preprocessor/issues"
+	},
+	"homepage": "https://github.com/shamokit/svelte-remove-attributes-preprocessor#readme",
+	"packageManager": "pnpm@10.13.1"
+}

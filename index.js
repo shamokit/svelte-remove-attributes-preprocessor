@@ -1,0 +1,1 @@
+export { removeAttributesPreprocessor } from './preprocessors/removeAttributesPreprocessor.js';
